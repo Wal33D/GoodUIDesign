@@ -6197,3 +6197,56 @@ th.hide-for-touch {
 
   th.show-for-print {
     display: table-cell !important; } }
+    
+  #title{
+color: rgba(215, 228, 255, 0.8); 
+font-size:72px;
+
+  text-shadow: 0 1px 0 #666666
+,
+               0 2px 0 #c9c9c9,
+               0 3px 0 #bbb,
+               0 4px 0 #b9b9b9,
+               0 5px 0 #aaa,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
+}
+.panel{
+  opacity: 0.75; 
+   background-color:white; 
+   border: 8px double #008cba;
+
+}
+.panelLined{
+
+     background-image: linear-gradient(90deg, transparent 79px, #abced4 79px, #abced4 81px, transparent 81px),
+  linear-gradient(#eee .1em, transparent .1em);
+    opacity: 0.90;
+    background-size: 100% 1.2em;
+}
+h2{
+   
+  font-family:  'Century Gothic', sans-serif;
+  font-size:36px;
+
+  text-shadow: 0 1px 0 #666666
+,
+               0 2px 0 #c9c9c9,
+               0 3px 0 #bbb,
+               0 4px 0 #b9b9b9,
+               0 5px 0 #aaa,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
+
+}
+
