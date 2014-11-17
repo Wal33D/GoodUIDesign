@@ -1,0 +1,277 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  
+  <head>
+    <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>
+    Soggy Squad | UI Design
+  </title>
+  <link rel="stylesheet" href="css/foundation.css" />
+  <script src="js/vendor/modernizr.js">
+  </script>
+  <link href='http://fonts.googleapis.com/css?family=Roboto+Slab:700' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Lato:900italic' rel='stylesheet' type='text/css'>
+  
+  <body>
+    
+    <nav class="top-bar" data-topbar role="navigation">
+      <ul class="title-area">
+        <li class="name">
+          
+          <h1>
+            <a href="#">
+              GUI Design
+            </a>
+          </h1>
+          
+        </li>
+        <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+        <li class="toggle-topbar menu-icon">
+          <a href="#">
+            <span>
+              Menu
+            </span>
+          </a>
+        </li>
+      </ul>
+      <section class="top-bar-section">
+        <!-- Right Nav Section -->
+        <ul class="right">
+          <li class="has-dropdown ">
+            <a href="#">
+              Fonts 
+            </a>
+            <ul class="dropdown">
+              <li>
+                <a href="Fonts-Good.html">
+                  Good Use
+                </a>
+              </li>
+              <li>
+                <a href="Fonts-Bad.html">
+                  Bad Use
+                </a>
+              </li>
+            </ul>
+          </li>
+          
+           <li class="has-dropdown ">
+            <a href="#">
+              Color 
+            </a>
+            <ul class="dropdown">
+              <li >
+                <a href="Color-Good.html">
+                  Good Use
+                </a>
+              </li>
+              <li class = "active">
+                <a href="Color-Bad.html">
+                  Bad Use
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li class="has-dropdown ">
+            <a href="#">
+              Sound 
+            </a>
+            <ul class="dropdown">
+              <li>
+              <a href="Sound-Good.html">
+                  Good Use
+                </a>
+              </li>
+              <li>
+                <a href="Sound-Bad.html">
+                  Bad Use
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li class="has-dropdown ">
+            <a href="#">
+              Accessability
+            </a>
+            <ul class="dropdown">
+              <li>
+                <a href="Access-Good.html">
+                  Good Use
+                </a>
+              </li>
+              <li class ="active">
+                <a href="Access-Bad.html">
+                  Bad Use
+                </a>
+              </li>
+            </ul>
+          </li>
+       <li class="has-dropdown ">
+            <a href="#">
+              Mobile Devices
+            </a>
+            <ul class="dropdown">
+              <li>
+                <a href="Mobile-Good.html">
+                  Good Use
+                </a>
+              </li>
+              <li>
+                <a href="Mobile-Bad.html">
+                  Bad Use
+                </a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+        <!-- Left Nav Section -->
+        <ul class="left">
+          <li>
+            <a href="index.html">
+              Home
+            </a>
+          </li>
+        </ul>
+      </section>
+  </nav>
+  
+  <br />
+  <center>
+  <p id = "title">
+      Accessability - Imroper Uses
+    </p>
+    <h3 Style = "color: #d8d8d8">(Ten accessibility blunders of the big players)</h3>
+  </center>
+  <br >
+  <div class="row">
+    <div class="large-12 columns">
+      <div class="panel">
+  
+<center>
+
+<p>Web accessibility is about making your website accessible to all Internet users (both disabled and non-disabled), regardless of what browsing technology they're using.<br><br>More and more <a href ="http://www.webcredible.co.uk/user-friendly-resources/web-accessibility/uk-website-legal-requirements.shtml">countries have passed laws</a> stating that websites must be accessible to blind and disabled people. With this kind of legal pressure, and the many <a href = "http://www.webcredible.co.uk/user-friendly-resources/web-accessibility/benefits-of-accessible-websites-1.shtml">benefits of accessibility</a>, the big players on the web must surely have accessible websites, right? Let's find out...</p>
+      </div>
+    </div>
+  </div>
+   </br>
+  <div class="row">
+    <div class="large-12 columns">
+      <div class="panel">
+    
+<center>
+<h2>Incorrectly assigned ALT text
+</h2></br>
+</br>
+
+<p>Guilty party: <a href = "http://www.amazon.com/">Amazon</a>
+<br><br>
+Screen readers, in-car browsers and users connected through slow dial-up connections who turn off images rely on ALT text, in place of images. There are two types of images: informational and decorative. For optimal accessibility, informational images should have an ALT description that adequately describes the image and decorative images should have ALT="" assigned to them. By assigning this null value, browsers simply ignore the image.</br></br>The majority of images on Amazon don't have any ALT text - quite extraordinary considering how non-time-consuming it is to assign them. Even more bizarrely, some informational images, such as the Amazon logo, have been assigned ALT="".</p>
+
+        
+      </div>
+    </div>
+  </div>
+     <br >
+  <div class="row">
+    <div class="large-12 columns">
+      <div class="panel">
+    
+<center>
+<h2>Non-resizable text</h2><br><br>
+
+<p><a href = "http://www.cnn.com/">Guilty party: CNN</a><br><br>
+  To take full advantage of the Internet, users with partial or poor sight need to be able to <a href ="http://www.webcredible.co.uk/accessibility.shtml#resize-text">enlarge the text</a> on web pages for the information to be accessible to them. As such, you need to specify the font size in terms of %, em or a relative value (small, medium etc.). CNN have specified the body text to be 12px in size.</p><br><br>
+      </div>
+    </div>
+  </div>
+       <br >
+  <div class="row">
+    <div class="large-12 columns">
+      <div class="panel">
+    
+<center>
+<h2>Text not created through markup</h2><br><br>
+
+<img src="http://www.w3.org/WAI/intro/no-mouse.png"></img><br><br>
+<p>Guilty party: <a href = "http://www.aol.com/">AOL</a><br><br>
+if images are used to display text then the text is obviously not resizable and not accessible to users with poor sight. Additionally, text embedded in images appears pixelated and blurry to users utilising screen magnifiers. The <a href = "http://www.w3.org/TR/WAI-WEBCONTENT/full-checklist.html">W3C Priority 2 guidelines (point 3.1)</a> covers this so if your website uses images to display text then it is not AA or AAA accessibility compliant.
+
+Have a look at the screenshot of the AOL homepage below. Aside from the area with the blue background at the bottom, virtually everything you see is created through images, even their phone number (in the very bottom right of the screenshot). What if I want to copy and paste their number into my address book?</p><br><br>
+<img src = "http://www.webcredible.com/i/aol.gif">
+</br>
+
+      </div>
+    </div>
+  </div>
+
+       <br>
+  <div class="row">
+    <div class="large-12 columns">
+      <div class="panel">
+    
+<center>
+<h2>Forms aren't accessible
+</h2><br><br>
+<p>Guilty party: Most major websites (except <a href = "http://www.aol.com/">AOL</a>)
+<br><br>
+For forms to be accessible, prompt text should be correctly positioned and assigned to form items. For more on accessible forms read our article, <a href = "http://www.webcredible.co.uk/user-friendly-resources/web-accessibility/accessible-forms-1.shtml">Making accessible forms</a>.<br><br>
+
+To check if an input box is accessible or not, simply click on the text next to it (the prompt text) and a flashing cursor should appear in the box. For radioboxes and checkboxes, when you click on the prompt text the item should become selected.</p><br><br>
+
+      </div>
+    </div>
+  </div>
+    <br >
+  <div class="row">
+    <div class="large-12 columns">
+      <div class="panel">
+    
+<center>
+<h2>Link text doesn't make sense out of context
+</h2><br><br>
+
+
+<p>
+Guilty party: <a href = "http://www.weather.com/">Weather Channel</a>
+<br><br>
+Visually impaired Internet users often browse websites by tabbing from one link to the next, so for maximum accessibility all link text should make sense out of context. ‘Click here’ and ‘more’ are two common examples of non-descriptive link text. Descriptive link text also has web usability and SEO benefits.<br><br>
+
+Have a look at this screen shot of the Weather Channel. In addition to the ‘Click here’ near the centre of the page, none of the links on the far right make any sense out of context. For example, what do ‘on your desktop’ and ‘free trial’ actually mean by themselves?</p></br></br>
+<img src = "http://www.webcredible.com/i/weather-network.gif">
+<br>
+      </div>
+    </div>
+  </div>
+    <br >
+  <div class="row">
+    <div class="large-12 columns">
+      <div class="panel">
+    
+<center>
+<h2>Website relies on JavaScript
+</h2><br><br>
+
+
+<p>
+Guilty party: <a href = "http://www.expedia.com/">Expedia</a>
+<br><br>
+Approximately 5% of Internet users' browsers don't support JavaScript (source: <a href = "http://www.thecounter.com/stats/2004/July/javas.php">The Counter</a>) so alternatives should be provided to ensure accessibility to all.
+<br><br>
+Turn JavaScript off on your browser and then go to Expedia. It's truly remarkable that a website as large as Expedia can't function without JavaScript. Click on any of the tabs at the top of the screen and you'll get this:</p>
+<br><img src = "http://www.webcredible.com/i/expedia.gif"><br><br>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/vendor/jquery.js">
+  </script>
+  <script src="js/foundation.min.js">
+  </script>
+  <script>
+    $(document).foundation();
+  </script>
+  
+  </body>
+  
+  </html>
