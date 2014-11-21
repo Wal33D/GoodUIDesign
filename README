@@ -1,0 +1,20 @@
+1) Good Interface Design Rules && Find a good and a bad, explain why 
+2) Fonts {
+		art, cross platform issues, readability, 
+		size(normal ppl/Accesebility), scaling
+		}
+3) Color{
+		art, color wheel, recommended pallets, 
+		cross platform issues
+		}
+4) Sound{
+		art, balance, cross platform,
+		valumee, accessability
+		}
+5) Accessiblity(General guidelines/standards){
+		Vision, Hearing, Language, Quadropeligic 
+		interface ideas 
+		}
+6) Mobile Device Interfaces{
+		making webapp look like a native app, use embedded web browser
+		}
